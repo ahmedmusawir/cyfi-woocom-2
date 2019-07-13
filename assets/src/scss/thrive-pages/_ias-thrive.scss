@@ -1,0 +1,116 @@
+/**
+ *
+ * IAS THRIVE STYLES
+ *
+ */
+
+// MOOSE MAGIC BOX (HOME PAGE & SERVICE PAGE IMAGE HOVER EFFECTS)
+.moose-magic-box {
+	// border: 3px solid red;
+	position: relative;
+
+	&:hover .overlay {
+	  opacity: 1;
+	}
+
+	.image {
+		// border: 3px solid blue;
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.overlay {
+		// border: 3px solid green;
+		// display: none;
+		position: absolute;
+		top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    height: 100%;
+	    width: 100%;
+	    opacity: 0;
+	    transition: .5s ease;
+  	  	background-color: white;
+	}
+
+	.text {
+		// border: 3px dotted hotpink;
+		position: absolute;
+
+		@media (min-width: 777px) and (max-width: 1120px) {
+			p {
+				font-size: .8rem !important;
+			}
+		}
+
+	}
+
+}
+
+// TESTIMONIAL PAGE 
+.tvo-testimonials-display {
+	
+	.tvo-item-col {
+		// border: 1rem dotted blue;
+		.tvo-testimonial-display-item {
+			box-shadow: 2px 2px 5px gray;
+
+		}
+		.tvo-testimonial-content {
+			// border: 1rem dotted red;
+			h4 {
+				display: none;
+			}
+
+		}
+		.tvo-testimonial-name {
+			// border: 1rem dotted red;
+			clear: both !important;
+			display: block !important;
+		}
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

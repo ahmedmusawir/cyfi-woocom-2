@@ -1,0 +1,89 @@
+/**
+ *
+ * STYLE: GARAGE GLOBAL
+ *
+ */
+
+// HEADER GRAVITY FORM 
+
+.form-box {
+	padding: 1rem 3rem;
+	margin: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 1.8rem;
+	background-color: $cg-secondary;
+	// border: 1rem solid white;
+
+	@media (max-width: 991px) {
+		padding: 1rem 2rem;
+		margin: 0;
+	}
+
+	#gform_wrapper_9 {
+		color: white;
+
+		.gform_title {
+			color: white;
+			font-size: 2rem;
+		}
+		// THE CHECKBOXES
+		#input_9_5 {
+			label {
+				max-width: 100%;
+				padding-top: .5rem;
+				padding-left: .5rem;
+
+				@media (max-width: 1199px) {
+					font-size: .7rem;
+				}
+				@media (max-width: 768px) {
+					font-size: 1rem;
+				}
+			}
+
+			input {
+				margin-left: 1rem;
+			}
+
+			li {
+				float: left !important;
+
+				@media (max-width: 768px) {
+					float: none !important;
+				}
+			}
+		}
+		#gform_submit_button_9 {
+			clear: both;
+			margin: auto;
+			display: block;
+		}
+	}
+}
+
+// FOOTER CTA FOR BLOG INDEX & GALLERY PAGE
+
+#footer-garage-cta {
+
+	padding: 3rem;
+	background-color: $cg-primary;
+
+	.text-content {
+		color: whitesmoke;
+		font-weight: 300;
+
+		strong {
+			font-weight: 600;
+		}
+		
+		a {
+			color: $cg-button; 
+			font-weight: 600;
+		}
+
+		@media (min-width: 1000px ) {
+			width: 60%;
+		}
+	}
+} 
+

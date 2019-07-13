@@ -1,0 +1,149 @@
+/**
+ *
+ * STYLE: Single Blog Post Cyberize
+ *
+ */
+
+.post-mas {
+	// padding-bottom: 5rem;
+	// margin-top: -6rem;
+
+	.entry-header {
+
+		.header-content {
+			width: 100vw;
+
+			.featured-img-holder {
+				img {
+					margin-top: -7rem;
+				}
+			}
+
+			.entry-title {
+				font-family: $primary-font;
+				color: $cg-text;
+				// padding-top: 3rem;
+			}
+			.entry-meta {
+				padding-right: 2rem;
+
+	 			.posted-on {
+	 				// border: 1px solid red;
+	 				// &:before {
+	 				// 	font-family: 'FontAwesome';
+	 				// 	content: "\f017";
+	 				// 	color: lighten($cg-secondary, 20%);
+	 				// 	padding-right: .5rem;
+	 				// 	padding-left: .5rem;
+	 				// }
+	 			}
+
+	 			.byline {
+	 				// border: 1px solid red;
+	 				// &:before {
+	 				// 	font-family: 'FontAwesome';
+	 				// 	content: "\f234";
+	 				// 	color: lighten($cg-secondary, 20%);
+	 				// 	padding-right: .5rem;
+	 				// 	padding-left: .5rem;
+	 				// }
+	 				text-transform: capitalize;
+	 			}
+	 			.cat-links {
+	 				// border: 1px solid red;
+	 				color: lighten($cg-secondary, 0%);
+
+	 				// &:before {
+	 				// 	font-family: 'FontAwesome';
+	 				// 	content: "\f0c5";
+	 				// 	color: lighten($cg-secondary, 20%);
+	 				// 	padding-right: .5rem;
+	 				// 	padding-left: .5rem;
+	 				// }
+	 			}						
+			}
+		}
+	}
+
+	.entry-content {
+		// padding-top: 4rem;
+
+		// @media (max-width: 576px) {
+		// 	padding-left: 1.5rem;
+		// 	padding-right: 1.5rem;
+		// }
+
+		// img {
+		// 	display: block;
+		// 	clear: both;
+		// 	width: 100%;
+		// 	border: 1rem solid red;
+
+		// 	@media (min-width: 700px) {
+		// 		@include transform(scale(1.2));
+		// 		padding-top: 3rem;
+		// 		padding-bottom: 2rem;
+		// 	}
+		// }
+
+		// PLEASE GO TO _single-global.scss for commentform styling
+		// It was done so that it covers both pages and single posts
+
+		// #commentform {
+		// 	input {
+		// 	border: 1rem solid red;
+		// 		width: 100%;
+		// 		background-color: lighten($cg-secondary, 70%);
+		// 		border: 1px solid lighten($cg-secondary, 30%);
+		// 		outline-color: $cg-secondary;
+		// 		@include border-bottom-right-radius(60px);	
+		// 	}
+		// 	textarea {
+		// 		width: 100%;
+		// 		background-color: lighten($cg-secondary, 70%);
+		// 		border: 1px solid lighten($cg-secondary, 30%);
+		// 		outline-color: $cg-secondary;
+		// 		// @include border-top-left-radius(60px);
+		// 		@include border-bottom-right-radius(60px);	
+		// 		box-sizing: border-box;
+		// 	}
+		// 	#submit {
+		// 		background-color: lighten($cg-secondary, 0%);
+		// 		&:hover {
+		// 			background-color: lighten($cg-secondary, 10%);
+		// 			color: white;
+		// 		}
+		// 	}
+		// }
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

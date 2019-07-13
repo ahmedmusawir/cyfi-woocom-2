@@ -1,0 +1,95 @@
+/**
+ *
+ * STYLE: Page Biz Mobile
+ *
+ */
+
+#page-bizmobile {
+
+	.container {
+		padding: 2rem;
+		margin-top: 4rem;
+	}
+	
+	.archive-index-title {
+		// border: 1rem solid hotpink; 	
+		margin-bottom: -.25rem;
+		padding: .5rem 0rem;
+		font-size: 1.5rem;
+		font-weight: 600;
+		color: white;
+		background: $cg-primary;
+		text-transform: uppercase;
+	}
+	.long-underline {
+		width: 100%;
+		border-top: 4px solid $cg-primary;
+		margin-bottom: 2rem;
+	}	
+}
+
+.page-bizmobile {
+	// padding-bottom: 5rem;
+	// margin-top: -6rem;
+
+	.featured-img-holder {
+		img {
+			// margin-top: -7rem;
+			width: 100%;
+		}
+	}
+
+	.entry-content {
+		// padding-top: 4rem;
+
+		@media (max-width: 576px) {
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+		}
+
+		img {
+			display: block;
+			clear: both;
+			width: 100%;
+			// box-shadow: 2px 2px 6px $gray-500 inset;
+			// @include border-top-left-radius(60px);
+			// @include border-bottom-right-radius(60px);			
+
+			@media (min-width: 700px) {
+				// @include transform(scale(1.2));
+				// padding-top: 3rem;
+				// padding-bottom: 2rem;
+			}
+		}
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

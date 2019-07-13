@@ -1,0 +1,163 @@
+/*=============================
+=            GLOBALS            =
+=============================*/
+@import "wp_default";
+@import "global";
+@import "custom";
+@import "contents/sidebar/sidebar-global";
+@import "footers/footer-general";
+
+/*=======================================
+=    HEADER & FOOTER & SIDEBAR            =
+=======================================*/
+
+// @import "headers/header-cyberize";
+// @import "headers/header-gulfcoast";
+@import "headers/header-ias";
+// @import "headers/header-garage";
+// @import "footers/footer-cyberize";
+// @import "footers/footer-garage";
+@import "footers/footer-ias";
+// @import "footers/footer-gulfcoast";
+@import "footers/footer-general";
+// @import "contents/sidebar/sidebar-global";
+
+
+/*=====  End of HEADER & FOOTER  ======*/
+
+/*=======================================
+=    404 & THANKYOU PAGES            =
+=======================================*/
+
+// @import "contents/404-page/404-cyberize";
+@import "contents/404-page/404-ias";
+@import "contents/thank-you-page/thank-you-ias";
+
+
+/*=====  End of HEADER & FOOTER  ======*/
+
+/*========================================
+=            PAGE GENERAL            =
+========================================*/
+
+// @import "contents/page/page-gulfcoast";
+// @import "contents/page/page-mas";
+@import "contents/page/page-ias";
+// @import "contents/page/page-cyberize";
+// @import "contents/page/page-garage";
+
+/*=====  End of PAGE GENERAL  ======*/
+
+/*=======================================
+=            BLOG INDEX PAGE            =
+=======================================*/
+
+@import "contents/blog-index-page/blog-index-ias";
+// @import "contents/blog-index-page/blog-index-gulfcoast";
+// @import "contents/blog-index-page/blog-index-cyberize";
+// @import "contents/blog-index-page/blog-index-garage";
+
+/*=====  End of BLOG INDEX PAGE  ======*/
+
+/*========================================
+=            SINGLE BLOG POST            =
+========================================*/
+
+@import "contents/single-post/post-ias";
+// @import "contents/single-post/post-gulfcoast";
+// @import "contents/single-post/post-mas";
+// @import "contents/single-post/post-cyberize";
+// @import "contents/single-post/post-garage";
+
+/*=====  End of SINGLE BLOG POST  ======*/
+
+/*========================================
+=            COMMENTS			          =
+========================================*/
+
+// @import "contents/comments/comments-cyberize";
+// @import "contents/comments/comments-gulfcoast";
+@import "contents/comments/comments-ias";
+
+/*=====  End of SINGLE BLOG POST  ======*/
+
+/*=========================================
+=            SEARCH INDEX PAGE            =
+=========================================*/
+
+@import "contents/search-index-page/search-index-ias";
+// @import "contents/search-index-page/search-index-gulfcoast";
+// @import "contents/search-index-page/search-index-cyberize";
+// @import "contents/search-index-page/search-index-garage";
+
+/*=====  End of SEARCH INDEX PAGE  ======*/
+
+/*==========================================
+=            ARCHIVE INDEX PAGE            =
+==========================================*/
+
+@import "contents/archive-index-page/archive-index-ias";
+// @import "contents/archive-index-page/archive-index-gulfcoast";
+// @import "contents/archive-index-page/archive-index-garage";
+// @import "contents/archive-index-page/archive-index-cyberize";
+
+/*=====  End of ARCHIVE INDEX PAGE  ======*/
+
+/*==========================================
+=            SIDEBAR STYLES 	            =
+==========================================*/
+
+@import "contents/sidebar/sidebar-ias";
+// @import "contents/sidebar/sidebar-gulfcoast";
+
+/*=====  End of SIDEBAR PAGE  ======*/
+
+/*==========================================
+=            WIDGETS STYLES 	            =
+==========================================*/
+
+// @import "contents/widgets/widget-garage";
+@import "contents/widgets/widget-ias";
+
+/*=====  End of WIDGETS PAGE  ======*/
+
+/*==========================================
+=            PROJECT GLOBALS  	            =
+==========================================*/
+
+@import "project_globals/ias-globals";
+// @import "project_globals/garage-globals";
+
+/*=====  End of PROJECT GLOBALS ======*/
+
+
+/*=======================================
+=            PORTFOLIO INDEX PAGE            =
+=======================================*/
+
+// @import "contents/portfolio/cg-portfolio-main-page";
+// @import "contents/portfolio/cg-taxonomy-portfolio-item";
+// @import "contents/portfolio/portfolio-masonry";
+@import "contents/portfolio/ias-portfolio";
+
+/*=====  End of PORTFOLIO INDEX PAGE  ======*/
+
+/*==========================================
+=            THRIVE PAGES 	            =
+==========================================*/
+
+// @import "thrive-pages/garage-thrive";
+// @import "thrive-pages/gulfcoast-thrive";
+@import "thrive-pages/ias-thrive";
+
+/*=====  End of THRIVE PAGES  ======*/
+
+
+/*=======================================
+=            WOOCOMMERCE STYLES            =
+=======================================*/
+
+@import "woocom/woocom-global";
+// @import "woocom/woocom-livewell";
+
+/*=====  End of WOOCOMMERCE STYLES  ======*/

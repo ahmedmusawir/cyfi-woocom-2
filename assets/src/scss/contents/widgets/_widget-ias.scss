@@ -1,0 +1,93 @@
+/**
+ *
+ * Widgets Styles Garage
+ *
+ */
+
+.tagcloud {
+	// border: 1rem dotted red;
+	a {
+		background: $cg-button;
+		color: white;
+		// padding: .2rem .1rem ;
+		// margin: .5rem;
+		padding-left: .2rem;
+		padding-right: .2rem;
+		// border-radius: 5px;
+	}
+} 
+
+.ias-footer-widget {
+
+	.icon-holder {
+		float: left;
+
+		img {
+			width: 100%;
+		}
+
+		@media (max-width: 767px) {
+			float: none;
+
+			img {
+				width: 7%;
+				margin: 0 auto;
+				clear: both;
+				display: block;
+			}
+			
+		}
+
+	}
+
+	.info-text {
+		.title {
+
+		}
+		.info {
+			color: white;
+			font-weight: 400;
+		}
+		.email {
+			font-size: .9rem;
+			color: white;
+		}
+		
+		@media (max-width: 1199px) {
+
+			text-align: center;
+			margin-top: 1.5rem;
+		}	
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

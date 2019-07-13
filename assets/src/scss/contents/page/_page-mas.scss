@@ -1,0 +1,70 @@
+/**
+ *
+ * STYLE: Page Cyberize
+ *
+ */
+
+#page-mas {
+	padding-bottom: 5rem;
+	// margin-top: -6rem;
+
+	.featured-img-holder {
+		img {
+			margin-top: -7rem;
+		}
+	}
+
+	.entry-content {
+		padding-top: 4rem;
+
+		@media (max-width: 576px) {
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+		}
+
+		img {
+			display: block;
+			clear: both;
+			width: 100%;
+			// box-shadow: 2px 2px 6px $gray-500 inset;
+			// @include border-top-left-radius(60px);
+			// @include border-bottom-right-radius(60px);			
+
+			@media (min-width: 700px) {
+				// @include transform(scale(1.2));
+				// padding-top: 3rem;
+				// padding-bottom: 2rem;
+			}
+		}
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

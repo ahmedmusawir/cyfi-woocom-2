@@ -1,0 +1,161 @@
+/**
+ *
+ * STYLE: Single Blog Post Cyberize
+ *
+ */
+
+.post-cyberize {
+	padding-bottom: 5rem;
+	// margin-top: -6rem;
+
+	.entry-header {
+		background-color: black;
+
+		.header-content {
+			width: 100vw;
+			height: 40vh;
+
+			background-color: rgba(darken($cg-primary, 20%), .7);
+
+			.entry-title {
+				font-family: $primary-font;
+				color: lighten($cg-secondary, 20%);
+				padding-right: 2rem;
+
+				@media (max-width: 500px) {
+					font-size: 3.5rem;
+				}
+				@media (min-width: 501px) {
+					font-size: 4rem;
+				}
+				@media (min-width: 800px) {
+					font-size: 5rem;
+				}
+				@media (min-width: 1200px) {
+					font-size: 6rem;
+				}
+			}
+			.entry-meta {
+				padding-right: 2rem;
+
+	 			.posted-on {
+	 				// border: 1px solid red;
+	 				&:before {
+	 					font-family: 'FontAwesome';
+	 					content: "\f017";
+	 					color: lighten($cg-secondary, 20%);
+	 					padding-right: .5rem;
+	 					padding-left: .5rem;
+	 				}
+	 			}
+
+	 			.byline {
+	 				// border: 1px solid red;
+	 				&:before {
+	 					font-family: 'FontAwesome';
+	 					content: "\f234";
+	 					color: lighten($cg-secondary, 20%);
+	 					padding-right: .5rem;
+	 					padding-left: .5rem;
+	 				}
+	 			}
+	 			.cat-links {
+	 				// border: 1px solid red;
+	 				color: lighten($cg-secondary, 20%);
+
+	 				&:before {
+	 					font-family: 'FontAwesome';
+	 					content: "\f0c5";
+	 					color: lighten($cg-secondary, 20%);
+	 					padding-right: .5rem;
+	 					padding-left: .5rem;
+	 				}
+	 			}						
+			}
+		}
+	}
+
+	.entry-content {
+		padding-top: 4rem;
+
+		@media (max-width: 576px) {
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+		}
+
+		img {
+			display: block;
+			clear: both;
+			width: 100%;
+			// box-shadow: 2px 2px 6px $gray-500 inset;
+			// @include border-top-left-radius(60px);
+			// @include border-bottom-right-radius(60px);			
+
+			@media (min-width: 700px) {
+				@include transform(scale(1.2));
+				padding-top: 3rem;
+				padding-bottom: 2rem;
+			}
+		}
+
+		// PLEASE GO TO _single-global.scss for commentform styling
+		// It was done so that it covers both pages and single posts
+
+		// #commentform {
+		// 	input {
+		// 	border: 1rem solid red;
+		// 		width: 100%;
+		// 		background-color: lighten($cg-secondary, 70%);
+		// 		border: 1px solid lighten($cg-secondary, 30%);
+		// 		outline-color: $cg-secondary;
+		// 		@include border-bottom-right-radius(60px);	
+		// 	}
+		// 	textarea {
+		// 		width: 100%;
+		// 		background-color: lighten($cg-secondary, 70%);
+		// 		border: 1px solid lighten($cg-secondary, 30%);
+		// 		outline-color: $cg-secondary;
+		// 		// @include border-top-left-radius(60px);
+		// 		@include border-bottom-right-radius(60px);	
+		// 		box-sizing: border-box;
+		// 	}
+		// 	#submit {
+		// 		background-color: lighten($cg-secondary, 0%);
+		// 		&:hover {
+		// 			background-color: lighten($cg-secondary, 10%);
+		// 			color: white;
+		// 		}
+		// 	}
+		// }
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

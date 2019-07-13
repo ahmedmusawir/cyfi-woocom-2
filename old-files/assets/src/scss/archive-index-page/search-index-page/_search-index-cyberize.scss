@@ -1,0 +1,139 @@
+/**
+ *
+ * STYLES: Search Index Cyberize
+ *
+ */
+
+.search-index-cyberize {
+ 	// background: url('/wp-content/uploads/2018/02/lightpaperfibers.jpg') fixed;
+
+	.card-columns {
+
+ 	  @include media-breakpoint-only(sm) {
+	    column-count: 2;
+	  }
+	  @include media-breakpoint-only(md) {
+	    column-count: 2;
+	  }
+	  @include media-breakpoint-only(lg) {
+	    column-count: 3;
+	  }
+	  @include media-breakpoint-only(xl) {
+	    column-count: 3;
+	  }
+	}
+
+	.post-nav-holder {
+		text-align: center;
+		border: 1px solid lighten($cg-primary, 30%);
+		-webkit-appearance: none;
+		-webkit-box-shadow: 1px 1px 3px inset lighten($cg-primary, 30%);
+		box-shadow: 1px 1px 3px inset lighten($cg-primary, 30%);
+
+		.navigation.posts-navigation {
+			display: block;
+			clear: both;
+			border-top-left-radius: 1rem solid red;
+		}
+	}
+
+	.archive-description {
+		text-align: center;
+		padding-bottom: 2rem;
+	}
+
+
+ 	.post-item {
+ 		text-align: center;
+ 		box-shadow: 1px 1px 6px lighten($cg-primary, 20%);
+
+ 		.featured-image-box {
+ 			overflow: hidden;
+
+			img {
+	 			// border: 1rem solid blue;
+				// width: 100%;
+			    @include transition-property(all);
+			    @include transition-duration(.5s);
+			    @include transition-timing-function(ease);		
+			    // @include transition-timing-function(ease-in-out);		
+				@include border-top-left-radius(45px);
+				@include border-bottom-right-radius(45px);			    
+
+				&:hover {
+					@include transform(scale(1.1));
+					// @include transform (rotate(10deg) scale(1) skew(-50deg) translate(100px) skew(-0deg, -0deg));
+					// @include transform(rotate(-135deg) skew(-10deg, -10deg));
+					opacity: .5;
+				}
+			}
+ 		}
+ 		.entry-title {
+ 			padding-top: 2rem;
+ 		}
+ 		.entry-meta {
+ 			padding-bottom: 2rem;
+
+ 			.posted-on {
+ 				// border: 1px solid red;
+ 				&:before {
+ 					font-family: 'FontAwesome';
+ 					content: "\f017";
+ 					color: $cg-secondary;
+ 					padding-right: .5rem;
+ 					padding-left: .5rem;
+ 				}
+ 			}
+
+ 			.byline {
+ 				// border: 1px solid red;
+ 				&:before {
+ 					font-family: 'FontAwesome';
+ 					content: "\f234";
+ 					color: $cg-secondary;
+ 					padding-right: .5rem;
+ 					padding-left: .5rem;
+ 				}
+ 			}
+ 		}
+ 	}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

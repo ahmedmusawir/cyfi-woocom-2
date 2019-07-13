@@ -1,0 +1,64 @@
+/**
+ *
+ * Header Cyberize Styles
+ *
+ */
+
+#header-cyberize {
+
+
+	.navbar {
+		background: $cg-secondary;
+		height: 90px;
+
+		.navbar-brand {
+			.logo {
+				width: 80%;
+
+				@media (max-width: 460px) {
+					width: 80%;
+				}
+			}
+		}
+		.navbar-toggler {
+			border: 3px solid lighten($cg-primary, 20%);
+
+			.navbar-toggler-icon {
+				background-image: url('/wp-content/uploads/2018/02/new-nav-icon-40.png');
+			}
+		}
+		#navbar-content {
+			#primary-menu {
+				padding-left: 2rem;
+				// margin-bottom: -2rem;
+
+				.menu-item {
+					padding-right: 2rem;
+
+					a {
+						font-family: $primary-font;
+						font-size: .7rem;
+						font-weight: 700;
+						color: white !important;
+						text-transform: uppercase;
+						color: lighten($cg-secondary, 10%);
+						&:hover {
+							color: lighten($cg-secondary, 20%);
+						}
+					}
+				}
+				.current-menu-item {
+					a {
+						font-family: $secondary-font;
+						color: $cg-primary !important;
+					}
+				}
+				
+			}
+		}
+
+	}
+}
+
+
+

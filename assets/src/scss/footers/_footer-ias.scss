@@ -1,0 +1,150 @@
+/**
+ *
+ * Footer IAS
+ *
+ */
+
+#footer-ias {
+
+	width: 100vw;
+	background-color: $cg-secondary;
+
+	.widgets_wrapper {
+		padding-top: 5rem;
+
+		#footer-widget-3 {
+
+			#heateor_sss_follow-2 {
+
+				.heateor_sss_follow_icons_container {
+					@media (min-width: 768px) and (max-width: 1199px) {
+						.widget-title {
+							padding-top: 1.8rem !important;
+						}
+					}
+					@media (max-width: 767px) {
+						display: flex;
+    					flex-direction: column;
+    					align-items: center;
+
+					}
+				}
+			}
+		}
+
+
+		#media_image-3 {
+			img {
+				width: 100% !important;
+			}
+		}
+
+		.footer-text {
+			font-size: 1rem !important;
+			font-family: $secondary-font;
+			font-weight: 300;
+			color: white !important;
+			padding-bottom: .8rem;
+			list-style-type: none;
+
+			a {
+				color: white;
+			}
+		}
+		
+
+		#search-3 {
+			margin-top: -3rem;
+			.search-submit {
+				display: none;
+			}
+		}
+
+		.widget {
+			padding-bottom: 2rem;
+			color: white;
+
+			.widget-title {
+				// border: 2px solid white;
+				font-size: 1.2rem !important;
+				font-weight: 700;
+			}
+
+			p {
+				color: white;
+			}
+
+			h1,h2,h3,h4,h5 {
+				font-family: $secondary-font;
+				color: white;
+			}
+			h1 {
+				font-size: $font-size-base * 2.5;
+			}
+			h2 {
+				font-size: $font-size-base * 2;
+			}
+			h3 {
+				font-size: $font-size-base * 1.75;
+			}
+			h4 {
+				font-size: $font-size-base * 1.5;
+			}
+			h5 {
+				font-size: $font-size-base * 1.25;
+			}
+			ul {
+				padding-inline-start: 0px;
+			}
+		}
+	}
+	.site-info {
+		border-top: 2px solid white;
+		background-color: $cg-secondary;
+		@media (max-width: 800px) {
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+			// border: 1rem solid red;
+		}
+
+		.copyright {
+			color: white;
+			padding: 1rem;
+			display: inline-block;
+			height: 8vh;
+
+			a {
+				color: #e3e3e3;
+			}
+		}				
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

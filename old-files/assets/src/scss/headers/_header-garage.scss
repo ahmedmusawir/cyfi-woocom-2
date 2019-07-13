@@ -1,0 +1,100 @@
+/**
+ *
+ * Header Cyberize Styles
+ *
+ */
+
+#header-garage {
+
+	position: relative;
+
+	#top-bar {
+		width: 100vw;
+		position: fixed;
+		top: 0;
+		text-align: center !important;
+		background: $cg-secondary;
+		z-index: 100000;
+
+		.top-bar-text {
+			font-size: .8rem;
+			padding-top: .7rem;
+			color: white;
+
+			@media (max-width: 640px) {
+				font-size: .8rem;
+				padding-left: 1.5rem;
+				padding-right: 1.5rem;
+			}
+
+			i {
+				font-size: 1.1rem;
+				margin-right: 1rem;
+			}
+			a {
+				color: $cg-button;
+			}
+		}
+	}
+
+	.navbar {
+		top: 38px;
+		background: $cg-primary;
+		height: 120px;
+
+		@media (max-width: 565px) {
+			top: 50px;
+		}
+
+		.navbar-brand {
+			.logo {
+				width: 80%;
+
+				@media (max-width: 460px) {
+					width: 80%;
+				}
+			}
+		}
+		.navbar-toggler {
+			border: 3px solid lighten($cg-primary, 20%);
+
+			.navbar-toggler-icon {
+				background-image: url('/wp-content/uploads/2018/02/new-nav-icon-40.png');
+			}
+		}
+		#navbar-content {
+			#primary-menu {
+				padding-top: .8rem !important;
+
+				.menu-item {
+					margin-right: .8rem;
+
+					a {
+						font-family: $primary-font;
+						font-size: .9rem;
+						font-weight: 700;
+						color: white !important;
+						text-transform: uppercase;
+						color: lighten($cg-secondary, 10%);
+						&:hover {
+							color: lighten($cg-secondary, 20%);
+						}
+					}
+				}
+				.current-menu-item {
+					a {
+						font-family: $secondary-font;
+						color: white !important;
+						border-bottom: 3px solid lighten($cg-primary, 25%);
+						// color: lighten($cg-primary, 20%) !important;
+					}
+				}
+				
+			}
+		}
+
+	}
+}
+
+
+

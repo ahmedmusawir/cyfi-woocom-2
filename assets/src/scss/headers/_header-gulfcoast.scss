@@ -1,0 +1,71 @@
+/**
+ *
+ * Header gulfcoast Styles
+ *
+ */
+
+#header-gulfcoast {
+
+
+	.navbar {
+		background: $cg-secondary;
+		height: 100px;
+
+		.navbar-brand {
+			.logo {
+				width: 70%;
+
+				@media (max-width: 1199px) {
+					width: 46%;
+				}
+
+				@media (max-width: 568px) {
+					width: 60%;
+				}
+
+				@media (max-width: 460px) {
+					width: 80%;
+				}
+			}
+		}
+		.navbar-toggler {
+			border: 3px solid lighten($cg-primary, 20%);
+
+			.navbar-toggler-icon {
+				background-image: url('/wp-content/uploads/2018/02/new-nav-icon-40.png');
+			}
+		}
+		#navbar-content {
+			#primary-menu {
+				padding-left: 2rem;
+				// margin-bottom: -2rem;
+
+				.menu-item {
+					padding-right: 2rem;
+
+					a {
+						font-family: $primary-font;
+						font-size: .8rem;
+						font-weight: 700;
+						color: $black !important;
+						text-transform: uppercase;
+						color: lighten($cg-secondary, 10%);
+						white-space: pre;
+
+						&:hover {
+							color: lighten($cg-secondary, 20%);
+						}
+					}
+				}
+				.current-menu-item {
+					a {
+						font-family: $secondary-font;
+						color: $cg-link !important;
+					}
+				}
+
+			}
+		}
+
+	}
+}

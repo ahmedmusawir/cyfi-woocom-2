@@ -1,0 +1,49 @@
+/**
+ *
+ * STYLE: IAS GLOBAL
+ *
+ */ 
+
+// SEARCH & ARCHIVE PAGE HEADERS
+
+#general-page-header {
+	.page-title {
+		@media (max-width: 400px) {
+			font-size: 1.8rem;
+		}
+	}
+} 
+
+// RESPONSIVE MENU BUTTON
+
+#responsive-menu-pro-button {
+	top: 60px !important;
+}				
+				
+/**
+ *
+ * Home Page - Footer Contact Page
+ *
+ */
+#text-2 {
+	// border: 1px solid white;
+	// padding-bottom: 0 !important;
+	.widget-title {
+		margin-bottom: -2.5rem;
+	}
+
+}
+
+#gform_wrapper_10 {
+	
+	.gform_title {
+		font-size: 2.5rem !important;
+		font-weight: 700;
+		color: $cg-button;
+	}
+
+	textarea {
+		height: 100px !important;
+	}
+
+}

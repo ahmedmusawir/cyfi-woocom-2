@@ -1,0 +1,134 @@
+/**
+ *
+ * General Styles for Sidebar Gulf
+ *
+ */
+
+#sidebar-gulfcoast {
+
+	.search-form {
+		label {
+			display: block;
+		}
+		input {
+			width: 100%;
+		}
+		.search-field {
+			padding-top: .5rem;
+			padding-bottom: .5rem;
+			outline-color: $cg-secondary;
+			width: 100%;
+			border:1px solid lighten($cg-secondary, 0%);
+			background-color: white;
+			text-align: left;
+			padding-left: 15px;
+			padding-right: 57px;
+			border-radius: 3px;
+
+			&::before {
+				content: 'Search';
+				position: absolute;
+				right: 0px;
+				color: #000;
+				z-index: 11;
+			}
+		}
+		.screen-reader-text {
+
+			width: 100%;
+			position: relative;
+
+			&::after {
+				content: 'Search';
+				position: absolute;
+				right: 0px;
+				color: $black;
+				z-index: 11;
+			}
+		}
+		.search-submit {
+			// display: none;
+			border-radius: 0px;
+			border: 1px solid $cg-secondary;
+			border-radius: 0px;
+		    border: 1px solid #d4c1aa;
+		    position: absolute;
+		    top: 0px;
+		    width: 55px;
+		    height: 42px;
+		    right: 15px;
+			// background-color: $cg-button;
+			color: $white;
+			border-radius: 0px 3px 3px 0px;
+			background: $cg-button url(../../../assets/img/search_icon.svg) 12px 4px no-repeat;
+
+			display: block;
+			text-indent: -9999em;
+			text-transform: uppercase;
+
+			&:hover {
+				background-color: lighten($cg-primary, 10%);
+				color: white;
+			}
+		}
+	}
+
+	.widget {
+		padding-bottom: 1rem;
+		// margin-top: 2rem;
+		margin-bottom: 2rem;
+
+		ul {
+			list-style-type: none;
+			padding-inline-start: 0px;
+
+			li {
+				padding-top: .85rem;
+				padding-bottom: .85rem;
+
+				// border-bottom: 2px solid lighten($cg-primary, 10%);
+
+				&:hover {
+					// border: 1px solid $cg-secondary;
+					text-decoration: none;
+					a {
+						color: darken($cg-secondary, 10%);
+						text-decoration: underline !important;
+					}
+				}
+
+				&:before {
+					/*content: '';
+					padding: 0px;*/
+					content: "•";
+					display: inline-block;
+				    content: '';
+				    -webkit-border-radius: 0.375rem;
+				    border-radius: 0.375rem;
+				    height: 0.75rem;
+				    width: 0.75rem;
+				    margin-right: 0.5rem;
+				    background-color: $cg-primary;
+					padding: 0px !important;
+				}
+			}
+		}
+
+		&.widget_media_image {
+
+			.widget-title {
+
+				margin-bottom: 20px !important;
+			}
+		}
+	}
+
+	.widgettitle, .widget-title {
+		font-size: 1.3rem;
+		font-weight: 700;
+		color: $black;
+    	font-weight: normal;
+		border-bottom: 2px solid $cg-secondary;
+		padding-bottom: 15px;
+	}
+}

@@ -1,0 +1,144 @@
+/**
+ *
+ * STYLE: Page Garage
+ *
+ */
+
+.garage-gallery-header {
+	min-height: 600px;
+	margin-top: 6.7rem;
+
+	@media (max-width: 376px) {
+		margin-top: 7.2rem;
+	}	
+
+
+	background: url(/wp-content/uploads/2019/06/sample-img-1.jpg) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;	
+
+	.header-content-holder {
+		background: rgba(0,0,0,.6);
+	} 
+	.header-content {
+
+	 	.title-box-holder {
+	 		min-height: 600px;
+	 		display: flex;
+
+	 		@media (max-width: 767px) {
+	 			min-height: 100px;
+	 			margin-top: 1.3rem;
+	 			margin-bottom: 1rem;
+	 		}
+
+	 		.title-box {
+	 			display: block;
+	 			margin: auto;
+	 			background-color: rgba($cg-primary, .6);
+	 			width: 100%;
+
+	 			.title {
+	 				color: whitesmoke;
+	 				padding: 3rem 4rem;
+	 				font-weight: 500;
+	 			}
+	 			.btn-sm {
+	 				// padding-left: 3rem;
+	 				// background-color: transparent !important;
+	 				// border: none;
+	 			}
+	 		}
+	 	}
+	}
+} 
+
+// Ape Gallery Plugin Item Popup
+.mfp-bottom-bar {
+	background-color: $cg-primary;
+	padding: 2rem;
+	
+	.mfp-title {
+		font-family: $primary-font !important;
+	}
+	.mfp-counter {
+		padding: .5rem;
+	}
+}
+	
+
+#page-garage {
+	padding-bottom: 5rem;
+	margin-top: -6rem;
+
+	.entry-content {
+		// padding-top: 4rem;
+
+		@media (max-width: 576px) {
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+		}
+
+		img {
+			display: block;
+			clear: both;
+			width: 100%;
+			// box-shadow: 2px 2px 6px $gray-500 inset;
+			// @include border-top-left-radius(60px);
+			// @include border-bottom-right-radius(60px);			
+
+			@media (min-width: 700px) {
+				// @include transform(scale(1.2));
+				// padding-top: 3rem;
+				// padding-bottom: 2rem;
+			}
+		}
+
+		.wpape_gallery_button {
+			// border: 1px solid red !important;
+			.apebtn.active {
+				// border: 1rem solid red;
+				background-color: $cg-primary;
+				color: white !important;
+			}
+
+			.apebtn {
+				// border: 1rem solid red;
+				@media (max-width: 408px) {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
